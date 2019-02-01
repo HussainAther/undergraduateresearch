@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<cactus_workflow_experiment config="/home/hussainather/progressiveCactus/namingsample/progressiveAlignment/Anc0/Anc0_config.xml" outputSequenceDir="./namingsample/sequenceData" sequences="./namingsample/sequenceData/namingsample.fasta ./namingsample/sequenceData/namingsample2.fasta" species_tree="(dmel:5.0,dsim:5.0)Anc0;">
+	<cactus_disk>
+		<st_kv_database_conf type="kyoto_tycoon">
+			<kyoto_tycoon database_dir="/home/hussainather/progressiveCactus/namingsample/progressiveAlignment/Anc0/Anc0/Anc0_DB" database_name="Anc0.kch" host="hahnlab-pc01" in_memory="1" port="1978" snapshot="0"/>
+		</st_kv_database_conf>
+		<secondary_conf type="kyoto_tycoon">
+			<kyoto_tycoon database_dir="/home/hussainather/progressiveCactus/namingsample/progressiveAlignment/Anc0/Anc0/Anc0_DB_tempSecondaryDatabaseDir_0.930171545566" database_name="Anc0.kch" host="hahnlab-pc01" in_memory="1" port="2078" snapshot="0"/>
+		</secondary_conf>
+	</cactus_disk>
+	<reference path="/home/hussainather/progressiveCactus/namingsample/progressiveAlignment/Anc0/Anc0.fa"/>
+	<hal fastaPath="/home/hussainather/progressiveCactus/namingsample/progressiveAlignment/Anc0/Anc0_hal.fa" halPath="/home/hussainather/progressiveCactus/namingsample/progressiveAlignment/Anc0/Anc0_hal.c2h"/>
+</cactus_workflow_experiment>

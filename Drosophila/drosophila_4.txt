@@ -1,0 +1,6 @@
+((dere:8,dyak:8):3,(dmel:5,dsim:5):6);
+
+dmel /home/hussainather/dro/dmel-4-new-chromosome-r5.54.fasta
+dsim /home/hussainather/dsim_4_new.fasta
+dere /home/hussainather/dere_4_new.fasta
+dyak /home/hussainather/dyak_4_new.fasta

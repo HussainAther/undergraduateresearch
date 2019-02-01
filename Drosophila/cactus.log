@@ -1,0 +1,558 @@
+
+2014-01-10 00:14:30.682493: Beginning Progressive Cactus Alignment
+
+Got message from job at time: 1389330871.81 : Before running any preprocessing on the assembly: /home/hussainather/dere_3R_new.fasta got following stats (assembly may be listed as temp file if input sequences from a directory): Input-sample: /home/hussainather/dere_3R_new.fasta Total-sequences: 4 Total-length: 26781 Proportion-repeat-masked: 0.003249 ProportionNs: 0.003249 N50: 87 Median-sequence-length: 5423
+Got message from job at time: 1389330872.61 : Before running any preprocessing on the assembly: /home/hussainather/dyak_3R_new.fasta got following stats (assembly may be listed as temp file if input sequences from a directory): Input-sample: /home/hussainather/dyak_3R_new.fasta Total-sequences: 1 Total-length: 28614112 Proportion-repeat-masked: 0.000314 ProportionNs: 0.000314 N50: 8984 Median-sequence-length: 28614112
+Got message from job at time: 1389330872.67 : Before running any preprocessing on the assembly: /home/hussainather/dsim_3R_new.fasta got following stats (assembly may be listed as temp file if input sequences from a directory): Input-sample: /home/hussainather/dsim_3R_new.fasta Total-sequences: 1 Total-length: 25965632 Proportion-repeat-masked: 0.001618 ProportionNs: 0.001618 N50: 42017 Median-sequence-length: 25965632
+Got message from job at time: 1389330872.74 : After preprocessing assembly we got the following stats: Input-sample: ./3R_new/sequenceData/_home_hussainather_dere_3R_new.fasta Total-sequences: 4 Total-length: 26781 Proportion-repeat-masked: 0.003249 ProportionNs: 0.003249 N50: 87 Median-sequence-length: 5423
+Got message from job at time: 1389330872.88 : Before running any preprocessing on the assembly: /home/hussainather/dro/dmel-3R-new-chromosome-r5.54.fasta got following stats (assembly may be listed as temp file if input sequences from a directory): Input-sample: /home/hussainather/dro/dmel-3R-new-chromosome-r5.54.fasta Total-sequences: 1 Total-length: 27905053 Proportion-repeat-masked: 0.000000 ProportionNs: 0.000000 N50: 0 Median-sequence-length: 27905053
+Got message from job at time: 1389330971.91 : After preprocessing assembly we got the following stats: Input-sample: ./3R_new/sequenceData/_home_hussainather_dsim_3R_new.fasta Total-sequences: 1 Total-length: 25965632 Proportion-repeat-masked: 0.003196 ProportionNs: 0.001618 N50: 82988 Median-sequence-length: 25965632
+Got message from job at time: 1389330972.78 : After preprocessing assembly we got the following stats: Input-sample: ./3R_new/sequenceData/_home_hussainather_dyak_3R_new.fasta Total-sequences: 1 Total-length: 28614112 Proportion-repeat-masked: 0.020706 ProportionNs: 0.000314 N50: 592471 Median-sequence-length: 28614112
+Got message from job at time: 1389330981.88 : After preprocessing assembly we got the following stats: Input-sample: ./3R_new/sequenceData/_home_hussainather_dro_dmel-3R-new-chromosome-r5.54.fasta Total-sequences: 1 Total-length: 27905053 Proportion-repeat-masked: 0.004040 ProportionNs: 0.000000 N50: 112741 Median-sequence-length: 27905053
+Got message from job at time: 1389330982.12 : The longest path in the tree is 14.000000
+Got message from job at time: 1389330982.12 : Made argument lastzArguments=--step=1 --ambiguous=iupac,100 --ydrop=3000 in tag caf with divergence threshold of 9223372036854775807 for longest path of 14.0 (useDefaultDivergences=False)
+Got message from job at time: 1389330992.27 : Blocking on ktserver <kyoto_tycoon database_dir="/home/hussainather/progressiveCactus/3R_new/progressiveAlignment/Anc2/Anc2/Anc2_DB" database_name="Anc2.kch" in_memory="1" port="1980" snapshot="0" />
+		 with killPath /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/gTD4/tmp_5DpM1iLtiV/tmp_bgGBSft5QH_kill.txt
+Got message from job at time: 1389330993.4 : The blast stage will filter by identity, the calculated minimum identity is 25 from a longest path of 14.0 and an adjusted path of 42.0
+Got message from job at time: 1389330993.4 : Starting caf phase target with index 0 at 1389330993.07 seconds (recursing = 1)
+Got message from job at time: 1389330993.4 : Adding an oversize flower for target class <class 'cactus.pipeline.cactus_workflow.CactusCafWrapperLarge'> and stats flower name: 0 total bases: 56545946 total-ends: 12 total-caps: 12 max-end-degree: 1 max-adjacency-length: 28614113 total-blocks: 0 total-groups: 1 total-edges: 6 total-free-ends: 12 total-attached-ends: 0 total-chains: 0 total-link groups: 0
+Got message from job at time: 1389332426.74 : Pinch graph component with 1227 nodes and 1384 edges is being split up by breaking 106 edges to reduce size to less than 490 max, but found 0 pointless edges 
+Got message from job at time: 1389332426.74 : Attaching the sequence to the cactus root 1905867067307838260, header dyak_3R with length 28614112 and 1238674 total bases aligned and 0 bases aligned to other chromosome threads
+Got message from job at time: 1389332426.74 : Starting bar phase target with index 0 at 1389332426.61 seconds (recursing = 1)
+Got message from job at time: 1389332429.41 : Adding an oversize flower for target class <class 'cactus.pipeline.cactus_workflow.CactusBarWrapperLarge'> and stats flower name: 7308779245268852689 total bases: 19503088 total-ends: 558 total-caps: 1504 max-end-degree: 18 max-adjacency-length: 1433906 total-blocks: 0 total-groups: 1 total-edges: 583 total-free-ends: 1 total-attached-ends: 557 total-chains: 0 total-link groups: 0
+Got message from job at time: 1389332429.41 : Adding an oversize flower for target class <class 'cactus.pipeline.cactus_workflow.CactusBarWrapperLarge'> and stats flower name: 7308779245268852745 total bases: 7938488 total-ends: 313 total-caps: 814 max-end-degree: 18 max-adjacency-length: 397333 total-blocks: 0 total-groups: 1 total-edges: 319 total-free-ends: 2 total-attached-ends: 311 total-chains: 0 total-link groups: 0
+Got message from job at time: 1389332429.41 : Adding an oversize flower for target class <class 'cactus.pipeline.cactus_workflow.CactusBarWrapperLarge'> and stats flower name: 7308779245268852749 total bases: 26121062 total-ends: 564 total-caps: 1520 max-end-degree: 15 max-adjacency-length: 758238 total-blocks: 0 total-groups: 1 total-edges: 605 total-free-ends: 3 total-attached-ends: 561 total-chains: 0 total-link groups: 0
+Got message from job at time: 1389332429.52 : Breaking bar job into 17 separate jobs
+Got message from job at time: 1389332433.75 : Breaking bar job into 8 separate jobs
+Got message from job at time: 1389332433.83 : Breaking bar job into 23 separate jobs
+The job seems to have left a log file, indicating failure: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t0/job
+Reporting file: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t0/log.txt
+log.txt:	---JOBTREE SLAVE OUTPUT LOG---
+log.txt:	Traceback (most recent call last):
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/jobTree/src/jobTreeSlave.py", line 271, in main
+log.txt:	    defaultMemory=defaultMemory, defaultCpu=defaultCpu, depth=depth)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/jobTree/scriptTree/stack.py", line 153, in execute
+log.txt:	    self.target.run()
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/pipeline/ktserverJobTree.py", line 139, in run
+log.txt:	    killPingInterval=self.runTimestep)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/pipeline/ktserverControl.py", line 130, in runKtserver
+log.txt:	    raise e
+log.txt:	RuntimeError: ktserver finished before it could be killed with the file.   Server log is: /home/hussainather/progressiveCactus/3R_new/progressiveAlignment/Anc2/Anc2/Anc2_DB/ktout.log
+log.txt:	Exiting the slave because of a failed job on host hahnlab-pc01
+log.txt:	Due to failure we are reducing the remaining retry count of job /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t0/job to 0
+log.txt:	We have set the default memory of the failed job to 34359738368 bytes
+Job: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t0/job is completely failed
+The job seems to have left a log file, indicating failure: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t0/t4/t0/job
+Reporting file: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t0/t4/t0/log.txt
+log.txt:	---JOBTREE SLAVE OUTPUT LOG---
+log.txt:	Exception: ST_KV_DATABASE_EXCEPTION: Opening connection to host: hahnlab-pc01 with error: network error
+log.txt:	Uncaught exception
+log.txt:	Traceback (most recent call last):
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/jobTree/src/jobTreeSlave.py", line 271, in main
+log.txt:	    defaultMemory=defaultMemory, defaultCpu=defaultCpu, depth=depth)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/jobTree/scriptTree/stack.py", line 153, in execute
+log.txt:	    self.target.run()
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/pipeline/cactus_workflow.py", line 534, in run
+log.txt:	    endAlignmentsToPrecomputeOutputFile=self.alignmentFile)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/pipeline/cactus_workflow.py", line 470, in runBarForTarget
+log.txt:	    precomputedAlignments=precomputedAlignments)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/shared/common.py", line 315, in runCactusBar
+log.txt:	    largeEndSize, endAlignmentsToPrecomputeOutputFile, precomputedAlignments), stdinString=flowerNames)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/sonLib/bioio.py", line 209, in popenCatch
+log.txt:	    raise RuntimeError("Command: %s with stdin string '%s' exited with non-zero status %i" % (command, stdinString, sts))
+log.txt:	RuntimeError: Command: cactus_bar --cactusDisk '<st_kv_database_conf type="kyoto_tycoon">
+log.txt:				<kyoto_tycoon database_dir="/home/hussainather/progressiveCactus/3R_new/progressiveAlignment/Anc2/Anc2/Anc2_DB" database_name="Anc2.kch" host="hahnlab-pc01" in_memory="1" port="1980" snapshot="0" />
+log.txt:			</st_kv_database_conf>
+log.txt:		' --logLevel CRITICAL --spanningTrees 5 --maximumLength 100000 --gapGamma 0.2 --splitMatrixBiggerThanThis 3000 --anchorMatrixBiggerThanThis 500 --repeatMaskMatrixBiggerThanThis 500 --constraintDiagonalTrim 14 --minimumDegree 2 --minimumIngroupDegree 0 --minimumOutgroupDegree 0 --alignAmbiguityCharacters --pruneOutStubAlignments --diagonalExpansion 20 --maximumNumberOfSequencesBeforeSwitchingToFast 10  --largeEndSize 5000 --endAlignmentsToPrecomputeOutputFile /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/gTD0/tmp_osR04FGhw1/endAlignments.6  with stdin string '18 7308779245268852749 -1124211056982362429 246 58 12 587 162 121 39 7 647 17 44 397 32 2093 108 337' exited with non-zero status 128
+log.txt:	Exiting the slave because of a failed job on host hahnlab-pc01
+log.txt:	Due to failure we are reducing the remaining retry count of job /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t0/t4/t0/job to 0
+log.txt:	We have set the default memory of the failed job to 8589934592 bytes
+Job: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t0/t4/t0/job is completely failed
+The job seems to have left a log file, indicating failure: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t0/t4/t1/job
+Reporting file: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t0/t4/t1/log.txt
+log.txt:	---JOBTREE SLAVE OUTPUT LOG---
+log.txt:	Exception: ST_KV_DATABASE_EXCEPTION: Opening connection to host: hahnlab-pc01 with error: network error
+log.txt:	Uncaught exception
+log.txt:	Traceback (most recent call last):
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/jobTree/src/jobTreeSlave.py", line 271, in main
+log.txt:	    defaultMemory=defaultMemory, defaultCpu=defaultCpu, depth=depth)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/jobTree/scriptTree/stack.py", line 153, in execute
+log.txt:	    self.target.run()
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/pipeline/cactus_workflow.py", line 534, in run
+log.txt:	    endAlignmentsToPrecomputeOutputFile=self.alignmentFile)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/pipeline/cactus_workflow.py", line 470, in runBarForTarget
+log.txt:	    precomputedAlignments=precomputedAlignments)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/shared/common.py", line 315, in runCactusBar
+log.txt:	    largeEndSize, endAlignmentsToPrecomputeOutputFile, precomputedAlignments), stdinString=flowerNames)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/sonLib/bioio.py", line 209, in popenCatch
+log.txt:	    raise RuntimeError("Command: %s with stdin string '%s' exited with non-zero status %i" % (command, stdinString, sts))
+log.txt:	RuntimeError: Command: cactus_bar --cactusDisk '<st_kv_database_conf type="kyoto_tycoon">
+log.txt:				<kyoto_tycoon database_dir="/home/hussainather/progressiveCactus/3R_new/progressiveAlignment/Anc2/Anc2/Anc2_DB" database_name="Anc2.kch" host="hahnlab-pc01" in_memory="1" port="1980" snapshot="0" />
+log.txt:			</st_kv_database_conf>
+log.txt:		' --logLevel CRITICAL --spanningTrees 5 --maximumLength 100000 --gapGamma 0.2 --splitMatrixBiggerThanThis 3000 --anchorMatrixBiggerThanThis 500 --repeatMaskMatrixBiggerThanThis 500 --constraintDiagonalTrim 14 --minimumDegree 2 --minimumIngroupDegree 0 --minimumOutgroupDegree 0 --alignAmbiguityCharacters --pruneOutStubAlignments --diagonalExpansion 20 --maximumNumberOfSequencesBeforeSwitchingToFast 10  --largeEndSize 5000 --endAlignmentsToPrecomputeOutputFile /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/gTD0/tmp_osR04FGhw1/endAlignments.7  with stdin string '18 7308779245268852749 -1124211056982357413 28 109 364 26 204 17 446 285 17 29 28 16 1 11 66 17' exited with non-zero status 128
+log.txt:	Exiting the slave because of a failed job on host hahnlab-pc01
+log.txt:	Due to failure we are reducing the remaining retry count of job /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t0/t4/t1/job to 0
+log.txt:	We have set the default memory of the failed job to 8589934592 bytes
+Job: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t0/t4/t1/job is completely failed
+The job seems to have left a log file, indicating failure: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t1/t0/t0/job
+Reporting file: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t1/t0/t0/log.txt
+log.txt:	---JOBTREE SLAVE OUTPUT LOG---
+log.txt:	Exception: ST_KV_DATABASE_EXCEPTION: Opening connection to host: hahnlab-pc01 with error: network error
+log.txt:	Uncaught exception
+log.txt:	Traceback (most recent call last):
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/jobTree/src/jobTreeSlave.py", line 271, in main
+log.txt:	    defaultMemory=defaultMemory, defaultCpu=defaultCpu, depth=depth)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/jobTree/scriptTree/stack.py", line 153, in execute
+log.txt:	    self.target.run()
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/pipeline/cactus_workflow.py", line 534, in run
+log.txt:	    endAlignmentsToPrecomputeOutputFile=self.alignmentFile)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/pipeline/cactus_workflow.py", line 470, in runBarForTarget
+log.txt:	    precomputedAlignments=precomputedAlignments)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/shared/common.py", line 315, in runCactusBar
+log.txt:	    largeEndSize, endAlignmentsToPrecomputeOutputFile, precomputedAlignments), stdinString=flowerNames)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/sonLib/bioio.py", line 209, in popenCatch
+log.txt:	    raise RuntimeError("Command: %s with stdin string '%s' exited with non-zero status %i" % (command, stdinString, sts))
+log.txt:	RuntimeError: Command: cactus_bar --cactusDisk '<st_kv_database_conf type="kyoto_tycoon">
+log.txt:				<kyoto_tycoon database_dir="/home/hussainather/progressiveCactus/3R_new/progressiveAlignment/Anc2/Anc2/Anc2_DB" database_name="Anc2.kch" host="hahnlab-pc01" in_memory="1" port="1980" snapshot="0" />
+log.txt:			</st_kv_database_conf>
+log.txt:		' --logLevel CRITICAL --spanningTrees 5 --maximumLength 100000 --gapGamma 0.2 --splitMatrixBiggerThanThis 3000 --anchorMatrixBiggerThanThis 500 --repeatMaskMatrixBiggerThanThis 500 --constraintDiagonalTrim 14 --minimumDegree 2 --minimumIngroupDegree 0 --minimumOutgroupDegree 0 --alignAmbiguityCharacters --pruneOutStubAlignments --diagonalExpansion 20 --maximumNumberOfSequencesBeforeSwitchingToFast 10  --largeEndSize 5000 --endAlignmentsToPrecomputeOutputFile /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/gTD0/tmp_osR04FGhw1/endAlignments.8  with stdin string '13 7308779245268852749 -1124211056982355657 17 236 16 200 20 332 17 284 16 16 653' exited with non-zero status 128
+log.txt:	Exiting the slave because of a failed job on host hahnlab-pc01
+log.txt:	Due to failure we are reducing the remaining retry count of job /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t1/t0/t0/job to 0
+log.txt:	We have set the default memory of the failed job to 8589934592 bytes
+Job: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t1/t0/t0/job is completely failed
+The job seems to have left a log file, indicating failure: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t1/t0/t1/job
+Reporting file: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t1/t0/t1/log.txt
+log.txt:	---JOBTREE SLAVE OUTPUT LOG---
+log.txt:	Exception: ST_KV_DATABASE_EXCEPTION: Opening connection to host: hahnlab-pc01 with error: network error
+log.txt:	Uncaught exception
+log.txt:	Traceback (most recent call last):
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/jobTree/src/jobTreeSlave.py", line 271, in main
+log.txt:	    defaultMemory=defaultMemory, defaultCpu=defaultCpu, depth=depth)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/jobTree/scriptTree/stack.py", line 153, in execute
+log.txt:	    self.target.run()
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/pipeline/cactus_workflow.py", line 534, in run
+log.txt:	    endAlignmentsToPrecomputeOutputFile=self.alignmentFile)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/pipeline/cactus_workflow.py", line 470, in runBarForTarget
+log.txt:	    precomputedAlignments=precomputedAlignments)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/shared/common.py", line 315, in runCactusBar
+log.txt:	    largeEndSize, endAlignmentsToPrecomputeOutputFile, precomputedAlignments), stdinString=flowerNames)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/sonLib/bioio.py", line 209, in popenCatch
+log.txt:	    raise RuntimeError("Command: %s with stdin string '%s' exited with non-zero status %i" % (command, stdinString, sts))
+log.txt:	RuntimeError: Command: cactus_bar --cactusDisk '<st_kv_database_conf type="kyoto_tycoon">
+log.txt:				<kyoto_tycoon database_dir="/home/hussainather/progressiveCactus/3R_new/progressiveAlignment/Anc2/Anc2/Anc2_DB" database_name="Anc2.kch" host="hahnlab-pc01" in_memory="1" port="1980" snapshot="0" />
+log.txt:			</st_kv_database_conf>
+log.txt:		' --logLevel CRITICAL --spanningTrees 5 --maximumLength 100000 --gapGamma 0.2 --splitMatrixBiggerThanThis 3000 --anchorMatrixBiggerThanThis 500 --repeatMaskMatrixBiggerThanThis 500 --constraintDiagonalTrim 14 --minimumDegree 2 --minimumIngroupDegree 0 --minimumOutgroupDegree 0 --alignAmbiguityCharacters --pruneOutStubAlignments --diagonalExpansion 20 --maximumNumberOfSequencesBeforeSwitchingToFast 10  --largeEndSize 5000 --endAlignmentsToPrecomputeOutputFile /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/gTD0/tmp_osR04FGhw1/endAlignments.9  with stdin string '11 7308779245268852749 -1124211056982353774 141 17 1786 28 16 43 79 489 66' exited with non-zero status 128
+log.txt:	Exiting the slave because of a failed job on host hahnlab-pc01
+log.txt:	Due to failure we are reducing the remaining retry count of job /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t1/t0/t1/job to 0
+log.txt:	We have set the default memory of the failed job to 8589934592 bytes
+Job: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t1/t0/t1/job is completely failed
+The job seems to have left a log file, indicating failure: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t1/t1/t0/job
+Reporting file: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t1/t1/t0/log.txt
+log.txt:	---JOBTREE SLAVE OUTPUT LOG---
+log.txt:	Exception: ST_KV_DATABASE_EXCEPTION: Opening connection to host: hahnlab-pc01 with error: network error
+log.txt:	Uncaught exception
+log.txt:	Traceback (most recent call last):
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/jobTree/src/jobTreeSlave.py", line 271, in main
+log.txt:	    defaultMemory=defaultMemory, defaultCpu=defaultCpu, depth=depth)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/jobTree/scriptTree/stack.py", line 153, in execute
+log.txt:	    self.target.run()
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/pipeline/cactus_workflow.py", line 534, in run
+log.txt:	    endAlignmentsToPrecomputeOutputFile=self.alignmentFile)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/pipeline/cactus_workflow.py", line 470, in runBarForTarget
+log.txt:	    precomputedAlignments=precomputedAlignments)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/shared/common.py", line 315, in runCactusBar
+log.txt:	    largeEndSize, endAlignmentsToPrecomputeOutputFile, precomputedAlignments), stdinString=flowerNames)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/sonLib/bioio.py", line 209, in popenCatch
+log.txt:	    raise RuntimeError("Command: %s with stdin string '%s' exited with non-zero status %i" % (command, stdinString, sts))
+log.txt:	RuntimeError: Command: cactus_bar --cactusDisk '<st_kv_database_conf type="kyoto_tycoon">
+log.txt:				<kyoto_tycoon database_dir="/home/hussainather/progressiveCactus/3R_new/progressiveAlignment/Anc2/Anc2/Anc2_DB" database_name="Anc2.kch" host="hahnlab-pc01" in_memory="1" port="1980" snapshot="0" />
+log.txt:			</st_kv_database_conf>
+log.txt:		' --logLevel CRITICAL --spanningTrees 5 --maximumLength 100000 --gapGamma 0.2 --splitMatrixBiggerThanThis 3000 --anchorMatrixBiggerThanThis 500 --repeatMaskMatrixBiggerThanThis 500 --constraintDiagonalTrim 14 --minimumDegree 2 --minimumIngroupDegree 0 --minimumOutgroupDegree 0 --alignAmbiguityCharacters --pruneOutStubAlignments --diagonalExpansion 20 --maximumNumberOfSequencesBeforeSwitchingToFast 10  --largeEndSize 5000 --endAlignmentsToPrecomputeOutputFile /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/gTD0/tmp_osR04FGhw1/endAlignments.10  with stdin string '10 7308779245268852749 -1124211056982350879 19 68 284 17 44 1806 98 17' exited with non-zero status 128
+log.txt:	Exiting the slave because of a failed job on host hahnlab-pc01
+log.txt:	Due to failure we are reducing the remaining retry count of job /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t1/t1/t0/job to 0
+log.txt:	We have set the default memory of the failed job to 8589934592 bytes
+Job: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t1/t1/t0/job is completely failed
+The job seems to have left a log file, indicating failure: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t1/t2/t0/job
+Reporting file: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t1/t2/t0/log.txt
+log.txt:	---JOBTREE SLAVE OUTPUT LOG---
+log.txt:	Exception: ST_KV_DATABASE_EXCEPTION: Opening connection to host: hahnlab-pc01 with error: network error
+log.txt:	Uncaught exception
+log.txt:	Traceback (most recent call last):
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/jobTree/src/jobTreeSlave.py", line 271, in main
+log.txt:	    defaultMemory=defaultMemory, defaultCpu=defaultCpu, depth=depth)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/jobTree/scriptTree/stack.py", line 153, in execute
+log.txt:	    self.target.run()
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/pipeline/cactus_workflow.py", line 534, in run
+log.txt:	    endAlignmentsToPrecomputeOutputFile=self.alignmentFile)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/pipeline/cactus_workflow.py", line 470, in runBarForTarget
+log.txt:	    precomputedAlignments=precomputedAlignments)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/shared/common.py", line 315, in runCactusBar
+log.txt:	    largeEndSize, endAlignmentsToPrecomputeOutputFile, precomputedAlignments), stdinString=flowerNames)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/sonLib/bioio.py", line 209, in popenCatch
+log.txt:	    raise RuntimeError("Command: %s with stdin string '%s' exited with non-zero status %i" % (command, stdinString, sts))
+log.txt:	RuntimeError: Command: cactus_bar --cactusDisk '<st_kv_database_conf type="kyoto_tycoon">
+log.txt:				<kyoto_tycoon database_dir="/home/hussainather/progressiveCactus/3R_new/progressiveAlignment/Anc2/Anc2/Anc2_DB" database_name="Anc2.kch" host="hahnlab-pc01" in_memory="1" port="1980" snapshot="0" />
+log.txt:			</st_kv_database_conf>
+log.txt:		' --logLevel CRITICAL --spanningTrees 5 --maximumLength 100000 --gapGamma 0.2 --splitMatrixBiggerThanThis 3000 --anchorMatrixBiggerThanThis 500 --repeatMaskMatrixBiggerThanThis 500 --constraintDiagonalTrim 14 --minimumDegree 2 --minimumIngroupDegree 0 --minimumOutgroupDegree 0 --alignAmbiguityCharacters --pruneOutStubAlignments --diagonalExpansion 20 --maximumNumberOfSequencesBeforeSwitchingToFast 10  --largeEndSize 5000 --endAlignmentsToPrecomputeOutputFile /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/gTD0/tmp_osR04FGhw1/endAlignments.11  with stdin string '23 7308779245268852749 -1124211056982348226 739 17 40 23 241083317552659611 16 231 900 17 9 14 92 17 316 832 17 76 17 61 72 7' exited with non-zero status 128
+log.txt:	Exiting the slave because of a failed job on host hahnlab-pc01
+log.txt:	Due to failure we are reducing the remaining retry count of job /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t1/t2/t0/job to 0
+log.txt:	We have set the default memory of the failed job to 8589934592 bytes
+Job: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t1/t2/t0/job is completely failed
+The job seems to have left a log file, indicating failure: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t1/t3/t0/job
+Reporting file: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t1/t3/t0/log.txt
+log.txt:	---JOBTREE SLAVE OUTPUT LOG---
+log.txt:	Exception: ST_KV_DATABASE_EXCEPTION: Opening connection to host: hahnlab-pc01 with error: network error
+log.txt:	Uncaught exception
+log.txt:	Traceback (most recent call last):
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/jobTree/src/jobTreeSlave.py", line 271, in main
+log.txt:	    defaultMemory=defaultMemory, defaultCpu=defaultCpu, depth=depth)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/jobTree/scriptTree/stack.py", line 153, in execute
+log.txt:	    self.target.run()
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/pipeline/cactus_workflow.py", line 534, in run
+log.txt:	    endAlignmentsToPrecomputeOutputFile=self.alignmentFile)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/pipeline/cactus_workflow.py", line 470, in runBarForTarget
+log.txt:	    precomputedAlignments=precomputedAlignments)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/shared/common.py", line 315, in runCactusBar
+log.txt:	    largeEndSize, endAlignmentsToPrecomputeOutputFile, precomputedAlignments), stdinString=flowerNames)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/sonLib/bioio.py", line 209, in popenCatch
+log.txt:	    raise RuntimeError("Command: %s with stdin string '%s' exited with non-zero status %i" % (command, stdinString, sts))
+log.txt:	RuntimeError: Command: cactus_bar --cactusDisk '<st_kv_database_conf type="kyoto_tycoon">
+log.txt:				<kyoto_tycoon database_dir="/home/hussainather/progressiveCactus/3R_new/progressiveAlignment/Anc2/Anc2/Anc2_DB" database_name="Anc2.kch" host="hahnlab-pc01" in_memory="1" port="1980" snapshot="0" />
+log.txt:			</st_kv_database_conf>
+log.txt:		' --logLevel CRITICAL --spanningTrees 5 --maximumLength 100000 --gapGamma 0.2 --splitMatrixBiggerThanThis 3000 --anchorMatrixBiggerThanThis 500 --repeatMaskMatrixBiggerThanThis 500 --constraintDiagonalTrim 14 --minimumDegree 2 --minimumIngroupDegree 0 --minimumOutgroupDegree 0 --alignAmbiguityCharacters --pruneOutStubAlignments --diagonalExpansion 20 --maximumNumberOfSequencesBeforeSwitchingToFast 10  --largeEndSize 5000 --endAlignmentsToPrecomputeOutputFile /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/gTD0/tmp_osR04FGhw1/endAlignments.12  with stdin string '10 7308779245268852749 -883127739429685090 173 16 1 262 17 339 108 277' exited with non-zero status 128
+log.txt:	Exiting the slave because of a failed job on host hahnlab-pc01
+log.txt:	Due to failure we are reducing the remaining retry count of job /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t1/t3/t0/job to 0
+log.txt:	We have set the default memory of the failed job to 8589934592 bytes
+Job: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t1/t3/t0/job is completely failed
+The job seems to have left a log file, indicating failure: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t2/t0/t0/job
+Reporting file: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t2/t0/t0/log.txt
+log.txt:	---JOBTREE SLAVE OUTPUT LOG---
+log.txt:	Exception: ST_KV_DATABASE_EXCEPTION: Opening connection to host: hahnlab-pc01 with error: network error
+log.txt:	Uncaught exception
+log.txt:	Traceback (most recent call last):
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/jobTree/src/jobTreeSlave.py", line 271, in main
+log.txt:	    defaultMemory=defaultMemory, defaultCpu=defaultCpu, depth=depth)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/jobTree/scriptTree/stack.py", line 153, in execute
+log.txt:	    self.target.run()
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/pipeline/cactus_workflow.py", line 534, in run
+log.txt:	    endAlignmentsToPrecomputeOutputFile=self.alignmentFile)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/pipeline/cactus_workflow.py", line 470, in runBarForTarget
+log.txt:	    precomputedAlignments=precomputedAlignments)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/shared/common.py", line 315, in runCactusBar
+log.txt:	    largeEndSize, endAlignmentsToPrecomputeOutputFile, precomputedAlignments), stdinString=flowerNames)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/sonLib/bioio.py", line 209, in popenCatch
+log.txt:	    raise RuntimeError("Command: %s with stdin string '%s' exited with non-zero status %i" % (command, stdinString, sts))
+log.txt:	RuntimeError: Command: cactus_bar --cactusDisk '<st_kv_database_conf type="kyoto_tycoon">
+log.txt:				<kyoto_tycoon database_dir="/home/hussainather/progressiveCactus/3R_new/progressiveAlignment/Anc2/Anc2/Anc2_DB" database_name="Anc2.kch" host="hahnlab-pc01" in_memory="1" port="1980" snapshot="0" />
+log.txt:			</st_kv_database_conf>
+log.txt:		' --logLevel CRITICAL --spanningTrees 5 --maximumLength 100000 --gapGamma 0.2 --splitMatrixBiggerThanThis 3000 --anchorMatrixBiggerThanThis 500 --repeatMaskMatrixBiggerThanThis 500 --constraintDiagonalTrim 14 --minimumDegree 2 --minimumIngroupDegree 0 --minimumOutgroupDegree 0 --alignAmbiguityCharacters --pruneOutStubAlignments --diagonalExpansion 20 --maximumNumberOfSequencesBeforeSwitchingToFast 10  --largeEndSize 5000 --endAlignmentsToPrecomputeOutputFile /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/gTD0/tmp_osR04FGhw1/endAlignments.13  with stdin string '11 7308779245268852749 -883127739429683880 36 268 17 524 422 58 909 187 60' exited with non-zero status 128
+log.txt:	Exiting the slave because of a failed job on host hahnlab-pc01
+log.txt:	Due to failure we are reducing the remaining retry count of job /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t2/t0/t0/job to 0
+log.txt:	We have set the default memory of the failed job to 8589934592 bytes
+Job: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t2/t0/t0/job is completely failed
+The job seems to have left a log file, indicating failure: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t2/t0/t1/job
+Reporting file: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t2/t0/t1/log.txt
+log.txt:	---JOBTREE SLAVE OUTPUT LOG---
+log.txt:	Exception: ST_KV_DATABASE_EXCEPTION: Opening connection to host: hahnlab-pc01 with error: network error
+log.txt:	Uncaught exception
+log.txt:	Traceback (most recent call last):
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/jobTree/src/jobTreeSlave.py", line 271, in main
+log.txt:	    defaultMemory=defaultMemory, defaultCpu=defaultCpu, depth=depth)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/jobTree/scriptTree/stack.py", line 153, in execute
+log.txt:	    self.target.run()
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/pipeline/cactus_workflow.py", line 534, in run
+log.txt:	    endAlignmentsToPrecomputeOutputFile=self.alignmentFile)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/pipeline/cactus_workflow.py", line 470, in runBarForTarget
+log.txt:	    precomputedAlignments=precomputedAlignments)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/shared/common.py", line 315, in runCactusBar
+log.txt:	    largeEndSize, endAlignmentsToPrecomputeOutputFile, precomputedAlignments), stdinString=flowerNames)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/sonLib/bioio.py", line 209, in popenCatch
+log.txt:	    raise RuntimeError("Command: %s with stdin string '%s' exited with non-zero status %i" % (command, stdinString, sts))
+log.txt:	RuntimeError: Command: cactus_bar --cactusDisk '<st_kv_database_conf type="kyoto_tycoon">
+log.txt:				<kyoto_tycoon database_dir="/home/hussainather/progressiveCactus/3R_new/progressiveAlignment/Anc2/Anc2/Anc2_DB" database_name="Anc2.kch" host="hahnlab-pc01" in_memory="1" port="1980" snapshot="0" />
+log.txt:			</st_kv_database_conf>
+log.txt:		' --logLevel CRITICAL --spanningTrees 5 --maximumLength 100000 --gapGamma 0.2 --splitMatrixBiggerThanThis 3000 --anchorMatrixBiggerThanThis 500 --repeatMaskMatrixBiggerThanThis 500 --constraintDiagonalTrim 14 --minimumDegree 2 --minimumIngroupDegree 0 --minimumOutgroupDegree 0 --alignAmbiguityCharacters --pruneOutStubAlignments --diagonalExpansion 20 --maximumNumberOfSequencesBeforeSwitchingToFast 10  --largeEndSize 5000 --endAlignmentsToPrecomputeOutputFile /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/gTD0/tmp_osR04FGhw1/endAlignments.14  with stdin string '14 7308779245268852749 -883127739429681354 35 67 581 76 17 124 17 148 22 7 108 17' exited with non-zero status 128
+log.txt:	Exiting the slave because of a failed job on host hahnlab-pc01
+log.txt:	Due to failure we are reducing the remaining retry count of job /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t2/t0/t1/job to 0
+log.txt:	We have set the default memory of the failed job to 8589934592 bytes
+Job: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t2/t0/t1/job is completely failed
+The job seems to have left a log file, indicating failure: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t2/t1/t0/job
+Reporting file: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t2/t1/t0/log.txt
+log.txt:	---JOBTREE SLAVE OUTPUT LOG---
+log.txt:	Exception: ST_KV_DATABASE_EXCEPTION: Opening connection to host: hahnlab-pc01 with error: network error
+log.txt:	Uncaught exception
+log.txt:	Traceback (most recent call last):
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/jobTree/src/jobTreeSlave.py", line 271, in main
+log.txt:	    defaultMemory=defaultMemory, defaultCpu=defaultCpu, depth=depth)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/jobTree/scriptTree/stack.py", line 153, in execute
+log.txt:	    self.target.run()
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/pipeline/cactus_workflow.py", line 534, in run
+log.txt:	    endAlignmentsToPrecomputeOutputFile=self.alignmentFile)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/pipeline/cactus_workflow.py", line 470, in runBarForTarget
+log.txt:	    precomputedAlignments=precomputedAlignments)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/shared/common.py", line 315, in runCactusBar
+log.txt:	    largeEndSize, endAlignmentsToPrecomputeOutputFile, precomputedAlignments), stdinString=flowerNames)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/sonLib/bioio.py", line 209, in popenCatch
+log.txt:	    raise RuntimeError("Command: %s with stdin string '%s' exited with non-zero status %i" % (command, stdinString, sts))
+log.txt:	RuntimeError: Command: cactus_bar --cactusDisk '<st_kv_database_conf type="kyoto_tycoon">
+log.txt:				<kyoto_tycoon database_dir="/home/hussainather/progressiveCactus/3R_new/progressiveAlignment/Anc2/Anc2/Anc2_DB" database_name="Anc2.kch" host="hahnlab-pc01" in_memory="1" port="1980" snapshot="0" />
+log.txt:			</st_kv_database_conf>
+log.txt:		' --logLevel CRITICAL --spanningTrees 5 --maximumLength 100000 --gapGamma 0.2 --splitMatrixBiggerThanThis 3000 --anchorMatrixBiggerThanThis 500 --repeatMaskMatrixBiggerThanThis 500 --constraintDiagonalTrim 14 --minimumDegree 2 --minimumIngroupDegree 0 --minimumOutgroupDegree 0 --alignAmbiguityCharacters --pruneOutStubAlignments --diagonalExpansion 20 --maximumNumberOfSequencesBeforeSwitchingToFast 10  --largeEndSize 5000 --endAlignmentsToPrecomputeOutputFile /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/gTD0/tmp_osR04FGhw1/endAlignments.15  with stdin string '22 7308779245268852749 -883127739429680123 32 172 1485 16 35 17 1044 162 13 7 412 45 23 28 73 130 13 7 62 12' exited with non-zero status 128
+log.txt:	Exiting the slave because of a failed job on host hahnlab-pc01
+log.txt:	Due to failure we are reducing the remaining retry count of job /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t2/t1/t0/job to 0
+log.txt:	We have set the default memory of the failed job to 8589934592 bytes
+Job: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t2/t1/t0/job is completely failed
+The job seems to have left a log file, indicating failure: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t2/t2/t0/job
+Reporting file: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t2/t2/t0/log.txt
+log.txt:	---JOBTREE SLAVE OUTPUT LOG---
+log.txt:	Exception: ST_KV_DATABASE_EXCEPTION: Opening connection to host: hahnlab-pc01 with error: network error
+log.txt:	Uncaught exception
+log.txt:	Traceback (most recent call last):
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/jobTree/src/jobTreeSlave.py", line 271, in main
+log.txt:	    defaultMemory=defaultMemory, defaultCpu=defaultCpu, depth=depth)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/jobTree/scriptTree/stack.py", line 153, in execute
+log.txt:	    self.target.run()
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/pipeline/cactus_workflow.py", line 534, in run
+log.txt:	    endAlignmentsToPrecomputeOutputFile=self.alignmentFile)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/pipeline/cactus_workflow.py", line 470, in runBarForTarget
+log.txt:	    precomputedAlignments=precomputedAlignments)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/shared/common.py", line 315, in runCactusBar
+log.txt:	    largeEndSize, endAlignmentsToPrecomputeOutputFile, precomputedAlignments), stdinString=flowerNames)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/sonLib/bioio.py", line 209, in popenCatch
+log.txt:	    raise RuntimeError("Command: %s with stdin string '%s' exited with non-zero status %i" % (command, stdinString, sts))
+log.txt:	RuntimeError: Command: cactus_bar --cactusDisk '<st_kv_database_conf type="kyoto_tycoon">
+log.txt:				<kyoto_tycoon database_dir="/home/hussainather/progressiveCactus/3R_new/progressiveAlignment/Anc2/Anc2/Anc2_DB" database_name="Anc2.kch" host="hahnlab-pc01" in_memory="1" port="1980" snapshot="0" />
+log.txt:			</st_kv_database_conf>
+log.txt:		' --logLevel CRITICAL --spanningTrees 5 --maximumLength 100000 --gapGamma 0.2 --splitMatrixBiggerThanThis 3000 --anchorMatrixBiggerThanThis 500 --repeatMaskMatrixBiggerThanThis 500 --constraintDiagonalTrim 14 --minimumDegree 2 --minimumIngroupDegree 0 --minimumOutgroupDegree 0 --alignAmbiguityCharacters --pruneOutStubAlignments --diagonalExpansion 20 --maximumNumberOfSequencesBeforeSwitchingToFast 10  --largeEndSize 5000 --endAlignmentsToPrecomputeOutputFile /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/gTD0/tmp_osR04FGhw1/endAlignments.16  with stdin string '12 7308779245268852749 -883127739429676318 124 289 44 26 14 516 23 28 17 204' exited with non-zero status 128
+log.txt:	Exiting the slave because of a failed job on host hahnlab-pc01
+log.txt:	Due to failure we are reducing the remaining retry count of job /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t2/t2/t0/job to 0
+log.txt:	We have set the default memory of the failed job to 8589934592 bytes
+Job: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t2/t2/t0/job is completely failed
+The job seems to have left a log file, indicating failure: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t2/t3/t0/job
+Reporting file: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t2/t3/t0/log.txt
+log.txt:	---JOBTREE SLAVE OUTPUT LOG---
+log.txt:	Exception: ST_KV_DATABASE_EXCEPTION: Opening connection to host: hahnlab-pc01 with error: network error
+log.txt:	Uncaught exception
+log.txt:	Traceback (most recent call last):
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/jobTree/src/jobTreeSlave.py", line 271, in main
+log.txt:	    defaultMemory=defaultMemory, defaultCpu=defaultCpu, depth=depth)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/jobTree/scriptTree/stack.py", line 153, in execute
+log.txt:	    self.target.run()
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/pipeline/cactus_workflow.py", line 534, in run
+log.txt:	    endAlignmentsToPrecomputeOutputFile=self.alignmentFile)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/pipeline/cactus_workflow.py", line 470, in runBarForTarget
+log.txt:	    precomputedAlignments=precomputedAlignments)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/shared/common.py", line 315, in runCactusBar
+log.txt:	    largeEndSize, endAlignmentsToPrecomputeOutputFile, precomputedAlignments), stdinString=flowerNames)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/sonLib/bioio.py", line 209, in popenCatch
+log.txt:	    raise RuntimeError("Command: %s with stdin string '%s' exited with non-zero status %i" % (command, stdinString, sts))
+log.txt:	RuntimeError: Command: cactus_bar --cactusDisk '<st_kv_database_conf type="kyoto_tycoon">
+log.txt:				<kyoto_tycoon database_dir="/home/hussainather/progressiveCactus/3R_new/progressiveAlignment/Anc2/Anc2/Anc2_DB" database_name="Anc2.kch" host="hahnlab-pc01" in_memory="1" port="1980" snapshot="0" />
+log.txt:			</st_kv_database_conf>
+log.txt:		' --logLevel CRITICAL --spanningTrees 5 --maximumLength 100000 --gapGamma 0.2 --splitMatrixBiggerThanThis 3000 --anchorMatrixBiggerThanThis 500 --repeatMaskMatrixBiggerThanThis 500 --constraintDiagonalTrim 14 --minimumDegree 2 --minimumIngroupDegree 0 --minimumOutgroupDegree 0 --alignAmbiguityCharacters --pruneOutStubAlignments --diagonalExpansion 20 --maximumNumberOfSequencesBeforeSwitchingToFast 10  --largeEndSize 5000 --endAlignmentsToPrecomputeOutputFile /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/gTD0/tmp_osR04FGhw1/endAlignments.17  with stdin string '16 7308779245268852749 -883127739429674799 52 14 44 17 1140 107 799 204 173 7 140 108 1442137043177020166 110' exited with non-zero status 128
+log.txt:	Exiting the slave because of a failed job on host hahnlab-pc01
+log.txt:	Due to failure we are reducing the remaining retry count of job /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t2/t3/t0/job to 0
+log.txt:	We have set the default memory of the failed job to 8589934592 bytes
+Job: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t2/t3/t0/job is completely failed
+The job seems to have left a log file, indicating failure: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t3/t0/t0/job
+Reporting file: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t3/t0/t0/log.txt
+log.txt:	---JOBTREE SLAVE OUTPUT LOG---
+log.txt:	Exception: ST_KV_DATABASE_EXCEPTION: Opening connection to host: hahnlab-pc01 with error: network error
+log.txt:	Uncaught exception
+log.txt:	Traceback (most recent call last):
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/jobTree/src/jobTreeSlave.py", line 271, in main
+log.txt:	    defaultMemory=defaultMemory, defaultCpu=defaultCpu, depth=depth)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/jobTree/scriptTree/stack.py", line 153, in execute
+log.txt:	    self.target.run()
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/pipeline/cactus_workflow.py", line 534, in run
+log.txt:	    endAlignmentsToPrecomputeOutputFile=self.alignmentFile)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/pipeline/cactus_workflow.py", line 470, in runBarForTarget
+log.txt:	    precomputedAlignments=precomputedAlignments)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/shared/common.py", line 315, in runCactusBar
+log.txt:	    largeEndSize, endAlignmentsToPrecomputeOutputFile, precomputedAlignments), stdinString=flowerNames)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/sonLib/bioio.py", line 209, in popenCatch
+log.txt:	    raise RuntimeError("Command: %s with stdin string '%s' exited with non-zero status %i" % (command, stdinString, sts))
+log.txt:	RuntimeError: Command: cactus_bar --cactusDisk '<st_kv_database_conf type="kyoto_tycoon">
+log.txt:				<kyoto_tycoon database_dir="/home/hussainather/progressiveCactus/3R_new/progressiveAlignment/Anc2/Anc2/Anc2_DB" database_name="Anc2.kch" host="hahnlab-pc01" in_memory="1" port="1980" snapshot="0" />
+log.txt:			</st_kv_database_conf>
+log.txt:		' --logLevel CRITICAL --spanningTrees 5 --maximumLength 100000 --gapGamma 0.2 --splitMatrixBiggerThanThis 3000 --anchorMatrixBiggerThanThis 500 --repeatMaskMatrixBiggerThanThis 500 --constraintDiagonalTrim 14 --minimumDegree 2 --minimumIngroupDegree 0 --minimumOutgroupDegree 0 --alignAmbiguityCharacters --pruneOutStubAlignments --diagonalExpansion 20 --maximumNumberOfSequencesBeforeSwitchingToFast 10  --largeEndSize 5000 --endAlignmentsToPrecomputeOutputFile /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/gTD0/tmp_osR04FGhw1/endAlignments.18  with stdin string '14 7308779245268852749 559009303747348350 77 142 68 14 12 65 53 412 1 36 87 17' exited with non-zero status 128
+log.txt:	Exiting the slave because of a failed job on host hahnlab-pc01
+log.txt:	Due to failure we are reducing the remaining retry count of job /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t3/t0/t0/job to 0
+log.txt:	We have set the default memory of the failed job to 8589934592 bytes
+Job: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t3/t0/t0/job is completely failed
+The job seems to have left a log file, indicating failure: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t3/t0/t1/job
+Reporting file: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t3/t0/t1/log.txt
+log.txt:	---JOBTREE SLAVE OUTPUT LOG---
+log.txt:	Exception: ST_KV_DATABASE_EXCEPTION: Opening connection to host: hahnlab-pc01 with error: network error
+log.txt:	Uncaught exception
+log.txt:	Traceback (most recent call last):
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/jobTree/src/jobTreeSlave.py", line 271, in main
+log.txt:	    defaultMemory=defaultMemory, defaultCpu=defaultCpu, depth=depth)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/jobTree/scriptTree/stack.py", line 153, in execute
+log.txt:	    self.target.run()
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/pipeline/cactus_workflow.py", line 534, in run
+log.txt:	    endAlignmentsToPrecomputeOutputFile=self.alignmentFile)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/pipeline/cactus_workflow.py", line 470, in runBarForTarget
+log.txt:	    precomputedAlignments=precomputedAlignments)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/shared/common.py", line 315, in runCactusBar
+log.txt:	    largeEndSize, endAlignmentsToPrecomputeOutputFile, precomputedAlignments), stdinString=flowerNames)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/sonLib/bioio.py", line 209, in popenCatch
+log.txt:	    raise RuntimeError("Command: %s with stdin string '%s' exited with non-zero status %i" % (command, stdinString, sts))
+log.txt:	RuntimeError: Command: cactus_bar --cactusDisk '<st_kv_database_conf type="kyoto_tycoon">
+log.txt:				<kyoto_tycoon database_dir="/home/hussainather/progressiveCactus/3R_new/progressiveAlignment/Anc2/Anc2/Anc2_DB" database_name="Anc2.kch" host="hahnlab-pc01" in_memory="1" port="1980" snapshot="0" />
+log.txt:			</st_kv_database_conf>
+log.txt:		' --logLevel CRITICAL --spanningTrees 5 --maximumLength 100000 --gapGamma 0.2 --splitMatrixBiggerThanThis 3000 --anchorMatrixBiggerThanThis 500 --repeatMaskMatrixBiggerThanThis 500 --constraintDiagonalTrim 14 --minimumDegree 2 --minimumIngroupDegree 0 --minimumOutgroupDegree 0 --alignAmbiguityCharacters --pruneOutStubAlignments --diagonalExpansion 20 --maximumNumberOfSequencesBeforeSwitchingToFast 10  --largeEndSize 5000 --endAlignmentsToPrecomputeOutputFile /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/gTD0/tmp_osR04FGhw1/endAlignments.19  with stdin string '23 7308779245268852749 559009303747349346 210 15 105 178 17 150 23 252 17 972 93 365 997 221 618 93 525 16 131 17 188' exited with non-zero status 128
+log.txt:	Exiting the slave because of a failed job on host hahnlab-pc01
+log.txt:	Due to failure we are reducing the remaining retry count of job /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t3/t0/t1/job to 0
+log.txt:	We have set the default memory of the failed job to 8589934592 bytes
+Job: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t3/t0/t1/job is completely failed
+The job seems to have left a log file, indicating failure: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t3/t1/t0/job
+Reporting file: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t3/t1/t0/log.txt
+log.txt:	---JOBTREE SLAVE OUTPUT LOG---
+log.txt:	Exception: ST_KV_DATABASE_EXCEPTION: Opening connection to host: hahnlab-pc01 with error: network error
+log.txt:	Uncaught exception
+log.txt:	Traceback (most recent call last):
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/jobTree/src/jobTreeSlave.py", line 271, in main
+log.txt:	    defaultMemory=defaultMemory, defaultCpu=defaultCpu, depth=depth)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/jobTree/scriptTree/stack.py", line 153, in execute
+log.txt:	    self.target.run()
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/pipeline/cactus_workflow.py", line 534, in run
+log.txt:	    endAlignmentsToPrecomputeOutputFile=self.alignmentFile)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/pipeline/cactus_workflow.py", line 470, in runBarForTarget
+log.txt:	    precomputedAlignments=precomputedAlignments)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/shared/common.py", line 315, in runCactusBar
+log.txt:	    largeEndSize, endAlignmentsToPrecomputeOutputFile, precomputedAlignments), stdinString=flowerNames)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/sonLib/bioio.py", line 209, in popenCatch
+log.txt:	    raise RuntimeError("Command: %s with stdin string '%s' exited with non-zero status %i" % (command, stdinString, sts))
+log.txt:	RuntimeError: Command: cactus_bar --cactusDisk '<st_kv_database_conf type="kyoto_tycoon">
+log.txt:				<kyoto_tycoon database_dir="/home/hussainather/progressiveCactus/3R_new/progressiveAlignment/Anc2/Anc2/Anc2_DB" database_name="Anc2.kch" host="hahnlab-pc01" in_memory="1" port="1980" snapshot="0" />
+log.txt:			</st_kv_database_conf>
+log.txt:		' --logLevel CRITICAL --spanningTrees 5 --maximumLength 100000 --gapGamma 0.2 --splitMatrixBiggerThanThis 3000 --anchorMatrixBiggerThanThis 500 --repeatMaskMatrixBiggerThanThis 500 --constraintDiagonalTrim 14 --minimumDegree 2 --minimumIngroupDegree 0 --minimumOutgroupDegree 0 --alignAmbiguityCharacters --pruneOutStubAlignments --diagonalExpansion 20 --maximumNumberOfSequencesBeforeSwitchingToFast 10  --largeEndSize 5000 --endAlignmentsToPrecomputeOutputFile /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/gTD0/tmp_osR04FGhw1/endAlignments.20  with stdin string '12 7308779245268852749 559009303747354566 428 16 129 55 642 273 17 108 17 76' exited with non-zero status 128
+log.txt:	Exiting the slave because of a failed job on host hahnlab-pc01
+log.txt:	Due to failure we are reducing the remaining retry count of job /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t3/t1/t0/job to 0
+log.txt:	We have set the default memory of the failed job to 8589934592 bytes
+Job: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t3/t1/t0/job is completely failed
+The job seems to have left a log file, indicating failure: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t3/t2/t0/job
+Reporting file: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t3/t2/t0/log.txt
+log.txt:	---JOBTREE SLAVE OUTPUT LOG---
+log.txt:	Exception: ST_KV_DATABASE_EXCEPTION: Opening connection to host: hahnlab-pc01 with error: network error
+log.txt:	Uncaught exception
+log.txt:	Traceback (most recent call last):
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/jobTree/src/jobTreeSlave.py", line 271, in main
+log.txt:	    defaultMemory=defaultMemory, defaultCpu=defaultCpu, depth=depth)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/jobTree/scriptTree/stack.py", line 153, in execute
+log.txt:	    self.target.run()
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/pipeline/cactus_workflow.py", line 534, in run
+log.txt:	    endAlignmentsToPrecomputeOutputFile=self.alignmentFile)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/pipeline/cactus_workflow.py", line 470, in runBarForTarget
+log.txt:	    precomputedAlignments=precomputedAlignments)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/shared/common.py", line 315, in runCactusBar
+log.txt:	    largeEndSize, endAlignmentsToPrecomputeOutputFile, precomputedAlignments), stdinString=flowerNames)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/sonLib/bioio.py", line 209, in popenCatch
+log.txt:	    raise RuntimeError("Command: %s with stdin string '%s' exited with non-zero status %i" % (command, stdinString, sts))
+log.txt:	RuntimeError: Command: cactus_bar --cactusDisk '<st_kv_database_conf type="kyoto_tycoon">
+log.txt:				<kyoto_tycoon database_dir="/home/hussainather/progressiveCactus/3R_new/progressiveAlignment/Anc2/Anc2/Anc2_DB" database_name="Anc2.kch" host="hahnlab-pc01" in_memory="1" port="1980" snapshot="0" />
+log.txt:			</st_kv_database_conf>
+log.txt:		' --logLevel CRITICAL --spanningTrees 5 --maximumLength 100000 --gapGamma 0.2 --splitMatrixBiggerThanThis 3000 --anchorMatrixBiggerThanThis 500 --repeatMaskMatrixBiggerThanThis 500 --constraintDiagonalTrim 14 --minimumDegree 2 --minimumIngroupDegree 0 --minimumOutgroupDegree 0 --alignAmbiguityCharacters --pruneOutStubAlignments --diagonalExpansion 20 --maximumNumberOfSequencesBeforeSwitchingToFast 10  --largeEndSize 5000 --endAlignmentsToPrecomputeOutputFile /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/gTD0/tmp_osR04FGhw1/endAlignments.21  with stdin string '13 7308779245268852749 559009303747356339 6 30 140 397 204 16 6 1 15 152 14' exited with non-zero status 128
+log.txt:	Exiting the slave because of a failed job on host hahnlab-pc01
+log.txt:	Due to failure we are reducing the remaining retry count of job /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t3/t2/t0/job to 0
+log.txt:	We have set the default memory of the failed job to 8589934592 bytes
+Job: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t3/t2/t0/job is completely failed
+The job seems to have left a log file, indicating failure: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t3/t3/t0/job
+Reporting file: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t3/t3/t0/log.txt
+log.txt:	---JOBTREE SLAVE OUTPUT LOG---
+log.txt:	Exception: ST_KV_DATABASE_EXCEPTION: Opening connection to host: hahnlab-pc01 with error: network error
+log.txt:	Uncaught exception
+log.txt:	Traceback (most recent call last):
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/jobTree/src/jobTreeSlave.py", line 271, in main
+log.txt:	    defaultMemory=defaultMemory, defaultCpu=defaultCpu, depth=depth)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/jobTree/scriptTree/stack.py", line 153, in execute
+log.txt:	    self.target.run()
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/pipeline/cactus_workflow.py", line 534, in run
+log.txt:	    endAlignmentsToPrecomputeOutputFile=self.alignmentFile)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/pipeline/cactus_workflow.py", line 470, in runBarForTarget
+log.txt:	    precomputedAlignments=precomputedAlignments)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/shared/common.py", line 315, in runCactusBar
+log.txt:	    largeEndSize, endAlignmentsToPrecomputeOutputFile, precomputedAlignments), stdinString=flowerNames)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/sonLib/bioio.py", line 209, in popenCatch
+log.txt:	    raise RuntimeError("Command: %s with stdin string '%s' exited with non-zero status %i" % (command, stdinString, sts))
+log.txt:	RuntimeError: Command: cactus_bar --cactusDisk '<st_kv_database_conf type="kyoto_tycoon">
+log.txt:				<kyoto_tycoon database_dir="/home/hussainather/progressiveCactus/3R_new/progressiveAlignment/Anc2/Anc2/Anc2_DB" database_name="Anc2.kch" host="hahnlab-pc01" in_memory="1" port="1980" snapshot="0" />
+log.txt:			</st_kv_database_conf>
+log.txt:		' --logLevel CRITICAL --spanningTrees 5 --maximumLength 100000 --gapGamma 0.2 --splitMatrixBiggerThanThis 3000 --anchorMatrixBiggerThanThis 500 --repeatMaskMatrixBiggerThanThis 500 --constraintDiagonalTrim 14 --minimumDegree 2 --minimumIngroupDegree 0 --minimumOutgroupDegree 0 --alignAmbiguityCharacters --pruneOutStubAlignments --diagonalExpansion 20 --maximumNumberOfSequencesBeforeSwitchingToFast 10  --largeEndSize 5000 --endAlignmentsToPrecomputeOutputFile /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/gTD0/tmp_osR04FGhw1/endAlignments.22  with stdin string '22 7308779245268852749 559009303747357364 17 28 17 311 93 589 35 17 533 1395 150 44 17 67 32 160 16 13 236 53' exited with non-zero status 128
+log.txt:	Exiting the slave because of a failed job on host hahnlab-pc01
+log.txt:	Due to failure we are reducing the remaining retry count of job /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t3/t3/t0/job to 0
+log.txt:	We have set the default memory of the failed job to 8589934592 bytes
+Job: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t2/t0/t3/t3/t0/job is completely failed
+The job seems to have left a log file, indicating failure: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t0/t2/job
+Reporting file: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t0/t2/log.txt
+log.txt:	---JOBTREE SLAVE OUTPUT LOG---
+log.txt:	Exception: ST_KV_DATABASE_EXCEPTION: Opening connection to host: hahnlab-pc01 with error: network error
+log.txt:	Uncaught exception
+log.txt:	Traceback (most recent call last):
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/jobTree/src/jobTreeSlave.py", line 271, in main
+log.txt:	    defaultMemory=defaultMemory, defaultCpu=defaultCpu, depth=depth)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/jobTree/scriptTree/stack.py", line 153, in execute
+log.txt:	    self.target.run()
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/pipeline/cactus_workflow.py", line 543, in run
+log.txt:	    messages = runBarForTarget(self, precomputedAlignments=self.phaseNode.attrib["precomputedAlignmentFiles"])
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/pipeline/cactus_workflow.py", line 470, in runBarForTarget
+log.txt:	    precomputedAlignments=precomputedAlignments)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/shared/common.py", line 315, in runCactusBar
+log.txt:	    largeEndSize, endAlignmentsToPrecomputeOutputFile, precomputedAlignments), stdinString=flowerNames)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/sonLib/bioio.py", line 209, in popenCatch
+log.txt:	    raise RuntimeError("Command: %s with stdin string '%s' exited with non-zero status %i" % (command, stdinString, sts))
+log.txt:	RuntimeError: Command: cactus_bar --cactusDisk '<st_kv_database_conf type="kyoto_tycoon">
+log.txt:				<kyoto_tycoon database_dir="/home/hussainather/progressiveCactus/3R_new/progressiveAlignment/Anc2/Anc2/Anc2_DB" database_name="Anc2.kch" host="hahnlab-pc01" in_memory="1" port="1980" snapshot="0" />
+log.txt:			</st_kv_database_conf>
+log.txt:		' --logLevel CRITICAL --spanningTrees 5 --maximumLength 100000 --gapGamma 0.2 --splitMatrixBiggerThanThis 3000 --anchorMatrixBiggerThanThis 500 --repeatMaskMatrixBiggerThanThis 500 --constraintDiagonalTrim 14 --minimumDegree 2 --minimumIngroupDegree 0 --minimumOutgroupDegree 0 --alignAmbiguityCharacters --pruneOutStubAlignments --diagonalExpansion 20 --maximumNumberOfSequencesBeforeSwitchingToFast 10  --largeEndSize 5000  --precomputedAlignments '/home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t0/t2/gTD0/tmp_j8Rvm2u254/endAlignments.0 /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t0/t2/gTD0/tmp_j8Rvm2u254/endAlignments.1 /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t0/t2/gTD0/tmp_j8Rvm2u254/endAlignments.2 /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t0/t2/gTD0/tmp_j8Rvm2u254/endAlignments.3 /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t0/t2/gTD0/tmp_j8Rvm2u254/endAlignments.4 /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t0/t2/gTD0/tmp_j8Rvm2u254/endAlignments.5 /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t0/t2/gTD0/tmp_j8Rvm2u254/endAlignments.6 /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t0/t2/gTD0/tmp_j8Rvm2u254/endAlignments.7 /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t0/t2/gTD0/tmp_j8Rvm2u254/endAlignments.8 /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t0/t2/gTD0/tmp_j8Rvm2u254/endAlignments.9 /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t0/t2/gTD0/tmp_j8Rvm2u254/endAlignments.10 /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t0/t2/gTD0/tmp_j8Rvm2u254/endAlignments.11 /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t0/t2/gTD0/tmp_j8Rvm2u254/endAlignments.12 /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t0/t2/gTD0/tmp_j8Rvm2u254/endAlignments.13 /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t0/t2/gTD0/tmp_j8Rvm2u254/endAlignments.14 /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t0/t2/gTD0/tmp_j8Rvm2u254/endAlignments.15 /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t0/t2/gTD0/tmp_j8Rvm2u254/endAlignments.16' with stdin string ' 1 7308779245268852689 ' exited with non-zero status 128
+log.txt:	Exiting the slave because of a failed job on host hahnlab-pc01
+log.txt:	Due to failure we are reducing the remaining retry count of job /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t0/t2/job to 0
+log.txt:	We have set the default memory of the failed job to 34359738368 bytes
+Job: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t0/t2/job is completely failed
+The job seems to have left a log file, indicating failure: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t1/t0/job
+Reporting file: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t1/t0/log.txt
+log.txt:	---JOBTREE SLAVE OUTPUT LOG---
+log.txt:	Exception: ST_KV_DATABASE_EXCEPTION: Opening connection to host: hahnlab-pc01 with error: network error
+log.txt:	Uncaught exception
+log.txt:	Traceback (most recent call last):
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/jobTree/src/jobTreeSlave.py", line 271, in main
+log.txt:	    defaultMemory=defaultMemory, defaultCpu=defaultCpu, depth=depth)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/jobTree/scriptTree/stack.py", line 153, in execute
+log.txt:	    self.target.run()
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/pipeline/cactus_workflow.py", line 543, in run
+log.txt:	    messages = runBarForTarget(self, precomputedAlignments=self.phaseNode.attrib["precomputedAlignmentFiles"])
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/pipeline/cactus_workflow.py", line 470, in runBarForTarget
+log.txt:	    precomputedAlignments=precomputedAlignments)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/cactus/shared/common.py", line 315, in runCactusBar
+log.txt:	    largeEndSize, endAlignmentsToPrecomputeOutputFile, precomputedAlignments), stdinString=flowerNames)
+log.txt:	  File "/home/hussainather/progressiveCactus/submodules/sonLib/bioio.py", line 209, in popenCatch
+log.txt:	    raise RuntimeError("Command: %s with stdin string '%s' exited with non-zero status %i" % (command, stdinString, sts))
+log.txt:	RuntimeError: Command: cactus_bar --cactusDisk '<st_kv_database_conf type="kyoto_tycoon">
+log.txt:				<kyoto_tycoon database_dir="/home/hussainather/progressiveCactus/3R_new/progressiveAlignment/Anc2/Anc2/Anc2_DB" database_name="Anc2.kch" host="hahnlab-pc01" in_memory="1" port="1980" snapshot="0" />
+log.txt:			</st_kv_database_conf>
+log.txt:		' --logLevel CRITICAL --spanningTrees 5 --maximumLength 100000 --gapGamma 0.2 --splitMatrixBiggerThanThis 3000 --anchorMatrixBiggerThanThis 500 --repeatMaskMatrixBiggerThanThis 500 --constraintDiagonalTrim 14 --minimumDegree 2 --minimumIngroupDegree 0 --minimumOutgroupDegree 0 --alignAmbiguityCharacters --pruneOutStubAlignments --diagonalExpansion 20 --maximumNumberOfSequencesBeforeSwitchingToFast 10  --largeEndSize 5000  --precomputedAlignments '/home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t1/t0/gTD0/tmp_3aHqrsLiQO/endAlignments.0 /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t1/t0/gTD0/tmp_3aHqrsLiQO/endAlignments.1 /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t1/t0/gTD0/tmp_3aHqrsLiQO/endAlignments.2 /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t1/t0/gTD0/tmp_3aHqrsLiQO/endAlignments.3 /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t1/t0/gTD0/tmp_3aHqrsLiQO/endAlignments.4 /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t1/t0/gTD0/tmp_3aHqrsLiQO/endAlignments.5 /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t1/t0/gTD0/tmp_3aHqrsLiQO/endAlignments.6 /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t1/t0/gTD0/tmp_3aHqrsLiQO/endAlignments.7' with stdin string ' 1 7308779245268852745 ' exited with non-zero status 128
+log.txt:	Exiting the slave because of a failed job on host hahnlab-pc01
+log.txt:	Due to failure we are reducing the remaining retry count of job /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t1/t0/job to 0
+log.txt:	We have set the default memory of the failed job to 34359738368 bytes
+Job: /home/hussainather/progressiveCactus/3R_new/jobTree/jobs/t1/t0/t1/t0/job is completely failed
+
+2014-01-10 01:00:29.333978: Finished Progressive Cactus Alignment
+
+
+2014-01-10 01:00:29.336646: Beginning HAL Export
+
+hal exception caught: Error opening/home/hussainather/progressiveCactus/3R_new/progressiveAlignment/Anc0/Anc0_hal.c2h
+Command exited with non-zero status 1
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 10832maxresident)k
+0inputs+0outputs (0major+742minor)pagefaults 0swaps
+rm -f ./3R_new/b00.hal:
+time halAppendCactusSubtree '/home/hussainather/progressiveCactus/3R_new/progressiveAlignment/Anc0/Anc0_hal.c2h' '/home/hussainather/progressiveCactus/3R_new/progressiveAlignment/Anc0/Anc0_hal.fa' '(Anc2:3.0,Anc1:6.0)Anc0;' './3R_new/b00.hal:'
+Traceback (most recent call last):
+  File "/home/hussainather/progressiveCactus/submodules/cactus2hal/bin/cactus2hal.py", line 122, in <module>
+    main();
+  File "/home/hussainather/progressiveCactus/submodules/cactus2hal/bin/cactus2hal.py", line 113, in main
+    system(cmdline)
+  File "/home/hussainather/progressiveCactus/submodules/sonLib/bioio.py", line 182, in system
+    raise RuntimeError("Command: %s exited with non-zero status %i" % (command, sts))
+RuntimeError: Command: time halAppendCactusSubtree '/home/hussainather/progressiveCactus/3R_new/progressiveAlignment/Anc0/Anc0_hal.c2h' '/home/hussainather/progressiveCactus/3R_new/progressiveAlignment/Anc0/Anc0_hal.fa' '(Anc2:3.0,Anc1:6.0)Anc0;' './3R_new/b00.hal:' exited with non-zero status 1

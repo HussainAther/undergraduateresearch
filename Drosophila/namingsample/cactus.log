@@ -1,0 +1,155 @@
+
+2013-12-16 15:07:06.154056: Beginning Progressive Cactus Alignment
+
+Got message from job at time: 1387224437.1 : Blocking on ktserver <kyoto_tycoon database_dir="/home/hussainather/progressiveCactus/namingsample/progressiveAlignment/Anc0/Anc0/Anc0_DB" database_name="Anc0.kch" in_memory="1" port="1978" snapshot="0" />
+		 with killPath /home/hussainather/progressiveCactus/namingsample/jobTree/jobs/gTD2/tmp_LKg0iZ2xJp/tmp_FPVQ4TUsvb_kill.txt
+Got message from job at time: 1387224437.65 : Input-sample: ./namingsample/sequenceData/namingsample.fasta Total-sequences: 4 Total-length: 26781 Proportion-repeat-masked: 0.003249 ProportionNs: 0.003249 N50: 87 Median-sequence-length: 5423
+Got message from job at time: 1387224437.65 : Input-sample: ./namingsample/sequenceData/namingsample2.fasta Total-sequences: 1 Total-length: 2816 Proportion-repeat-masked: 0.000000 ProportionNs: 0.000000 N50: 0 Median-sequence-length: 2816
+Got message from job at time: 1387224437.65 : Starting caf phase target with index 0 at 1387224437.24 seconds (recursing = 1)
+Got message from job at time: 1387224437.65 : Starting bar phase target with index 0 at 1387224437.53 seconds (recursing = 1)
+Got message from job at time: 1387224440.97 : Starting avg phase target with index 0 at 1387224440.9 seconds (recursing = 0)
+Got message from job at time: 1387224440.97 : Starting reference phase target with index 0 at 1387224440.91 seconds (recursing = 1)
+Got message from job at time: 1387224451.1 : Blocking on ktserver <kyoto_tycoon database_dir="/home/hussainather/progressiveCactus/namingsample/progressiveAlignment/Anc0/Anc0/Anc0_DB_tempSecondaryDatabaseDir_0.930171545566" database_name="Anc0.kch" in_memory="1" port="2078" snapshot="0" />
+   with killPath /home/hussainather/progressiveCactus/namingsample/jobTree/jobs/t1/gTD1/tmp_9hpRPRt3re/tmp_NIvD6LDQsF_kill.txt
+Got message from job at time: 1387224452.13 : Launching ktserver <kyoto_tycoon database_dir="/home/hussainather/progressiveCactus/namingsample/progressiveAlignment/Anc0/Anc0/Anc0_DB_tempSecondaryDatabaseDir_0.930171545566" database_name="Anc0.kch" in_memory="1" port="2078" snapshot="0" />
+   with killPath /home/hussainather/progressiveCactus/namingsample/jobTree/jobs/t1/gTD1/tmp_9hpRPRt3re/tmp_NIvD6LDQsF_kill.txt
+Got message from job at time: 1387224452.63 : Killing ktserver <kyoto_tycoon database_dir="/home/hussainather/progressiveCactus/namingsample/progressiveAlignment/Anc0/Anc0/Anc0_DB_tempSecondaryDatabaseDir_0.930171545566" database_name="Anc0.kch" host="hahnlab-pc01" in_memory="1" port="2078" snapshot="0" />
+   with killPath /home/hussainather/progressiveCactus/namingsample/jobTree/jobs/t1/gTD1/tmp_9hpRPRt3re/tmp_NIvD6LDQsF_kill.txt
+Got message from job at time: 1387224452.63 : Report for hahnlab-pc01:2078:
+cnt_get: 16
+cnt_get_misses: 0
+cnt_misc: 0
+cnt_remove: 11
+cnt_remove_misses: 0
+cnt_script: 0
+cnt_set: 16
+cnt_set_misses: 0
+conf_kc_features: (atomic)(zlib)
+conf_kc_version: 1.2.76 (16.13)
+conf_kt_features: (epoll)
+conf_kt_version: 0.9.56 (2.19)
+conf_os_name: Linux
+db_0: count=5 size=268436850 path=:
+db_total_count: 5
+db_total_size: 268436850
+serv_conn_count: 1
+serv_current_time: 1387224451.373987
+serv_proc_id: 2819
+serv_running_term: 10.391824
+serv_task_count: 0
+serv_thread_count: 64
+sys_mem_cached: 1764573184
+sys_mem_free: 6099427328
+sys_mem_peak: 5070008320
+sys_mem_rss: 2875392
+sys_mem_size: 5070008320
+sys_mem_total: 8328691712
+sys_ru_stime: 0.008000
+sys_ru_utime: 0.012000
+
+Contents of /home/hussainather/progressiveCactus/namingsample/progressiveAlignment/Anc0/Anc0/Anc0_DB_tempSecondaryDatabaseDir_0.930171545566:
+total 4.0K
+-rw-rw-r-- 1 hussainather hussainather 456 Dec 16 15:07 ktout.log
+
+
+Got message from job at time: 1387224452.87 : Starting reference phase target with index 0 at 1387224452.64 seconds (recursing = 1)
+Got message from job at time: 1387224452.87 : Starting Reference Extract Phase
+Got message from job at time: 1387224452.87 : Starting check phase target with index 0 at 1387224452.8 seconds (recursing = 0)
+Got message from job at time: 1387224463.0 : Blocking on ktserver <kyoto_tycoon database_dir="/home/hussainather/progressiveCactus/namingsample/progressiveAlignment/Anc0/Anc0/Anc0_DB_tempSecondaryDatabaseDir_0.930171545566" database_name="Anc0.kch" in_memory="1" port="2078" snapshot="0" />
+   with killPath /home/hussainather/progressiveCactus/namingsample/jobTree/jobs/t1/gTD1/tmp_9hpRPRt3re/tmp_mUvh2D3cMN_kill.txt
+Got message from job at time: 1387224464.0 : Launching ktserver <kyoto_tycoon database_dir="/home/hussainather/progressiveCactus/namingsample/progressiveAlignment/Anc0/Anc0/Anc0_DB_tempSecondaryDatabaseDir_0.930171545566" database_name="Anc0.kch" in_memory="1" port="2078" snapshot="0" />
+   with killPath /home/hussainather/progressiveCactus/namingsample/jobTree/jobs/t1/gTD1/tmp_9hpRPRt3re/tmp_mUvh2D3cMN_kill.txt
+Got message from job at time: 1387224464.4 : Killing ktserver <kyoto_tycoon database_dir="/home/hussainather/progressiveCactus/namingsample/progressiveAlignment/Anc0/Anc0/Anc0_DB_tempSecondaryDatabaseDir_0.930171545566" database_name="Anc0.kch" host="hahnlab-pc01" in_memory="1" port="2078" snapshot="0" />
+   with killPath /home/hussainather/progressiveCactus/namingsample/jobTree/jobs/t1/gTD1/tmp_9hpRPRt3re/tmp_mUvh2D3cMN_kill.txt
+Got message from job at time: 1387224464.4 : Report for hahnlab-pc01:2078:
+cnt_get: 42
+cnt_get_misses: 0
+cnt_misc: 0
+cnt_remove: 32
+cnt_remove_misses: 0
+cnt_script: 0
+cnt_set: 42
+cnt_set_misses: 0
+conf_kc_features: (atomic)(zlib)
+conf_kc_version: 1.2.76 (16.13)
+conf_kt_features: (epoll)
+conf_kt_version: 0.9.56 (2.19)
+conf_os_name: Linux
+db_0: count=10 size=268438226 path=:
+db_total_count: 10
+db_total_size: 268438226
+serv_conn_count: 1
+serv_current_time: 1387224463.128032
+serv_proc_id: 3082
+serv_running_term: 10.251010
+serv_task_count: 0
+serv_thread_count: 64
+sys_mem_cached: 1764663296
+sys_mem_free: 6097924096
+sys_mem_peak: 5070008320
+sys_mem_rss: 3022848
+sys_mem_size: 5070008320
+sys_mem_total: 8328691712
+sys_ru_stime: 0.016001
+sys_ru_utime: 0.008000
+
+Contents of /home/hussainather/progressiveCactus/namingsample/progressiveAlignment/Anc0/Anc0/Anc0_DB_tempSecondaryDatabaseDir_0.930171545566:
+total 4.0K
+-rw-rw-r-- 1 hussainather hussainather 456 Dec 16 15:07 ktout.log
+
+
+Got message from job at time: 1387224468.07 : Launching ktserver <kyoto_tycoon database_dir="/home/hussainather/progressiveCactus/namingsample/progressiveAlignment/Anc0/Anc0/Anc0_DB" database_name="Anc0.kch" in_memory="1" port="1978" snapshot="0" />
+		 with killPath /home/hussainather/progressiveCactus/namingsample/jobTree/jobs/gTD2/tmp_LKg0iZ2xJp/tmp_FPVQ4TUsvb_kill.txt
+Got message from job at time: 1387224468.71 : Killing ktserver <kyoto_tycoon database_dir="/home/hussainather/progressiveCactus/namingsample/progressiveAlignment/Anc0/Anc0/Anc0_DB" database_name="Anc0.kch" host="hahnlab-pc01" in_memory="1" port="1978" snapshot="0" />
+		 with killPath /home/hussainather/progressiveCactus/namingsample/jobTree/jobs/gTD2/tmp_LKg0iZ2xJp/tmp_FPVQ4TUsvb_kill.txt
+Got message from job at time: 1387224468.71 : Report for hahnlab-pc01:1978:
+cnt_get: 1789
+cnt_get_misses: 1178
+cnt_misc: 0
+cnt_remove: 0
+cnt_remove_misses: 0
+cnt_script: 0
+cnt_set: 1242
+cnt_set_misses: 0
+conf_kc_features: (atomic)(zlib)
+conf_kc_version: 1.2.76 (16.13)
+conf_kt_features: (epoll)
+conf_kt_version: 0.9.56 (2.19)
+conf_os_name: Linux
+db_0: count=1176 size=268481661 path=:
+db_total_count: 1176
+db_total_size: 268481661
+serv_conn_count: 1
+serv_current_time: 1387224464.432374
+serv_proc_id: 2601
+serv_running_term: 37.445818
+serv_task_count: 0
+serv_thread_count: 64
+sys_mem_cached: 1764667392
+sys_mem_free: 6099419136
+sys_mem_peak: 5070008320
+sys_mem_rss: 3088384
+sys_mem_size: 5070008320
+sys_mem_total: 8328691712
+sys_ru_stime: 0.136008
+sys_ru_utime: 0.148009
+
+Contents of /home/hussainather/progressiveCactus/namingsample/progressiveAlignment/Anc0/Anc0/Anc0_DB:
+total 36K
+-rw-rw-r-- 1 hussainather hussainather 31K Dec 16 15:07 cactusSequences
+-rw-rw-r-- 1 hussainather hussainather 456 Dec 16 15:07 ktout.log
+
+
+
+2013-12-16 15:07:48.806093: Finished Progressive Cactus Alignment
+
+
+2013-12-16 15:07:48.809153: Beginning HAL Export
+
+0.00user 0.02system 0:00.03elapsed 94%CPU (0avgtext+0avgdata 225968maxresident)k
+0inputs+112outputs (0major+14310minor)pagefaults 0swaps
+rm -f ./namingsample/b00.hal:
+time halAppendCactusSubtree '/home/hussainather/progressiveCactus/namingsample/progressiveAlignment/Anc0/Anc0_hal.c2h' '/home/hussainather/progressiveCactus/namingsample/progressiveAlignment/Anc0/Anc0_hal.fa' '(dmel:5.0,dsim:5.0)Anc0;' './namingsample/b00.hal:'
+total time: 0.04  total halAppendCactusSubtree time: 0.04
+
+2013-12-16 15:07:49.046274: Finished HAL Export 

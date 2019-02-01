@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<cactusWorkflowConfig>
+	  
+	<constants defaultCpu="1" defaultMemory="mediumMemory" defaultOverlargeCpu="1" defaultOverlargeMemory="mediumMemory">
+		  
+		<defines bigMemory="207374182400" littleMemory="2147483648" maxFlowerGroupSizeRecursion="100000000" mediumMemory="8589934592"/>
+		  
+	</constants>
+	  
+	<preprocessor check="1" memory="2147483648" preprocessorString="cactus_checkUniqueHeaders.py IN_FILE" scope="leaves"/>
+	  
+	<preprocessor chunkSize="100000000" memory="littleMemory" preprocessorString="cactus_lastzRepeatMask.py --minPeriod=50 --lastzOpts='--step=2 --ambiguous=iupac --nogapped' GENOME_FILE IN_FILE OUT_FILE" scope="leaves"/>
+	  
+	<ktserver memory="mediumMemory" overlargeMemory="bigMemory"/>
+	  
+	<setup makeEventHeadersAlphaNumeric="0"/>
+	<caf annealingRounds="128" blockTrim="5" chunkSize="25000000" compressFiles="1" deannealingRounds="2 8" filterByIdentity="0" identityRatio="6" lastzArguments="--step=2 --ambiguous=iupac,100 --ydrop=3000" lastzMemory="littleMemory" maxAdjacencyComponentSizeRatio="50" maximumMedianSequenceLengthBetweenLinkedEnds="1000" minLengthForChromosome="1000000" minimumBlockDegree="2" minimumDistance="0.01" minimumIngroupDegree="2" minimumOutgroupDegree="0" minimumSequenceLengthForBlast="30" minimumTreeCoverage="0.0" overlapSize="10000" proportionOfUnalignedBasesForNewChromosome="0.8" realign="0" realignArguments="--gapGamma 0.9 --diagonalExpansion 4 --splitMatrixBiggerThanThis 10 --constraintDiagonalTrim 0 --alignAmbiguityCharacters" singleCopyIngroup="0" singleCopyOutgroup="1" trim="0 0">
+		<CactusCafRecursion maxFlowerGroupSize="100000000"/>
+		<CactusCafWrapper maxFlowerGroupSize="25000000" minFlowerSize="1"/>
+		<CactusCafWrapperLarge2 overlargeMemory="bigMemory"/>
+	</caf>
+	<bar alignAmbiguityCharacters="1" anchorMatrixBiggerThanThis="500" bandingLimit="100000" constraintDiagonalTrim="14" diagonalExpansion="20" gapGamma="0.2" largeEndSize="5000" maximumNumberOfSequencesBeforeSwitchingToFast="10" minimumBlockDegree="2" minimumIngroupDegree="0" minimumOutgroupDegree="0" pruneOutStubAlignments="1" repeatMaskMatrixBiggerThanThis="500" runBar="1" spanningTrees="5" splitMatrixBiggerThanThis="3000" useBanding="1" veryLargeEndSize="1000000">
+		<CactusBarRecursion maxFlowerGroupSize="maxFlowerGroupSizeRecursion"/>
+		<CactusBarWrapper maxFlowerGroupSize="1000000" memory="littleMemory"/>
+		<CactusBarWrapperLarge maxFlowerGroupSize="1000000"/>
+		<CactusBarEndAlignerWrapper memory="littleMemory"/>
+	</bar>
+	<normal iterations="0">
+		<CactusNormalRecursion maxFlowerGroupSize="maxFlowerGroupSizeRecursion" maxFlowerWrapperGroupSize="10000000"/>
+		<CactusNormalWrapper/>
+	</normal>
+	<avg buildAvgs="0">
+		<CactusAVGRecursion maxFlowerGroupSize="maxFlowerGroupSizeRecursion" maxFlowerWrapperGroupSize="10000000"/>
+		<CactusAVGWrapper/>
+	</avg>
+	<reference buildReference="1" ignoreUnalignedGaps="1" matchingAlgorithm="greedy" maxWalkForCalculatingZ="100000" permutations="10" reference="Anc0" theta="0.0001" useSimulatedAnnealing="1" wiggle="0.9999">
+		<CactusReferenceRecursion maxFlowerGroupSize="maxFlowerGroupSizeRecursion" maxFlowerWrapperGroupSize="50000000"/>
+		 
+		<CactusReferenceWrapper/>
+		 
+		<CactusSetReferenceCoordinatesUpWrapper/>
+		 
+		<CactusSetReferenceCoordinatesDownRecursion maxFlowerGroupSize="maxFlowerGroupSizeRecursion" maxFlowerWrapperGroupSize="50000000"/>
+		 
+		<CactusSetReferenceCoordinatesDownWrapper/>
+	</reference>
+	<check runCheck="0">
+		<CactusCheckRecursion maxFlowerGroupSize="maxFlowerGroupSizeRecursion" maxFlowerWrapperGroupSize="50000000"/>
+		<CactusCheckWrapper/>
+	</check>
+	<hal buildFasta="1" buildHal="1" buildMaf="1" joinMaf="0" showOnlySubstitutionsWithRespectToReference="0">
+		<CactusHalGeneratorRecursion maxFlowerGroupSize="50000000"/>
+		<CactusHalGeneratorUpWrapper/>
+	</hal>
+	  
+	<multi_cactus>
+		<outgroup ancestor_quality_fraction="0.75" strategy="greedyLeaves" threshold="0"/>
+		 
+		<decomposition default_internal_node_prefix="Anc" max_parallel_subtrees="1" self_alignment="false" subtree_size="2"/>
+		  
+	</multi_cactus>
+</cactusWorkflowConfig>

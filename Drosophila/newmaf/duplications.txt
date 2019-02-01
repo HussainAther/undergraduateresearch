@@ -1,0 +1,2 @@
+import fileinput 
+f=open("/Users/Mcfoofa/Google Drive/Research/My Research/Drosophila/newmaf/dsim/4/4_dsimclusterout2.txt", "r")

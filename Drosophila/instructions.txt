@@ -1,0 +1,10 @@
+number of headers
+number of each chromosome type
+number of scaffold type
+
+split them up into arms
+
+chromosomes: X Y 2 3 4 
+2, and 3 have two arms, so there will be a total of 7 files. There will be one for scaffolds/unknown so that will be 8.
+
+make a dict that keeps track of each header ID and the number of times it appears in the file

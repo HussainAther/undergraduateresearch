@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<multi_cactus inputSequences="/home/hussainather/dro/namingsample.fasta /home/hussainather/dro/namingsample2.fasta" outputSequenceDir="./namingsample/sequenceData">
+	<tree>
+		(dmel:5.0,dsim:5.0)Anc0;
+	</tree>
+	<cactus experiment_path="/home/hussainather/progressiveCactus/namingsample/progressiveAlignment/Anc0/Anc0_experiment.xml" name="Anc0"/>
+</multi_cactus>

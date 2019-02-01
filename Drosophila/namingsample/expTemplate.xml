@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<cactus_workflow_experiment config="/home/hussainather/progressiveCactus/namingsample/config.xml" outputSequenceDir="./namingsample/sequenceData" sequences="/home/hussainather/dro/namingsample.fasta /home/hussainather/dro/namingsample2.fasta " species_tree="(dmel:5.0,dsim:5.0);">
+	<cactus_disk>
+		<st_kv_database_conf type="kyoto_tycoon">
+			<kyoto_tycoon in_memory="1" port="1978" snapshot="0"/>
+		</st_kv_database_conf>
+	</cactus_disk>
+</cactus_workflow_experiment>
